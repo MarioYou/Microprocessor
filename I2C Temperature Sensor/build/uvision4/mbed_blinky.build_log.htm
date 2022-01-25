@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: CSE CSE UHCL Flex license: MDK Professional 5.35 (Flex) (mdk_pro) Operation stops: 18 Jul 2024
+ 
+Tool Versions:
+Toolchain:       MDK Professional 5.35 (Flex)  Version: 5.35.0.2
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.33.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\sonnierm5910\OneDrive - University of Houston-Clear Lake\Documents\_CENG 4113\Lab07\PrjSrc\myProject.uvprojx
+Project File Date:  11/02/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'MyProgramSource'
+compiling main.cpp...
+main.cpp(58): warning:  #177-D: variable "colNum"  was declared but never referenced
+  	int colNum = 1;
+main.cpp(59): warning:  #177-D: variable "rowNum"  was declared but never referenced
+  	int rowNum = 0;
+main.cpp(159): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	if (temp < 0.0){
+main.cpp(164): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	if(temp - ((int) temp) < 0.5){
+main.cpp(252): warning:  #177-D: variable "num"  was declared but never referenced
+    int num = 0;
+main.cpp: 5 warnings, 0 errors
+linking...
+mbed/TARGET_LPC4088/TOOLCHAIN_ARM_STD/LPC407X_8X.sct(28): warning: L6314W: No section matches pattern *.o(SPIFI_MEM).
+Program Size: Code=18864 RO-data=3844 RW-data=100 ZI-data=624  
+Finished: 0 information, 1 warning and 0 error messages.
+".\build\uvision4\mbed_blinky.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC4000_DFP.2.2.0.pack
+                Keil.LPC4000_DFP.2.2.0
+                NXP LPC4000 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  C:\Arm\Packs\Keil\LPC4000_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

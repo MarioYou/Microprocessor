@@ -1,0 +1,16 @@
+Dependencies for Project 'Lab03a', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\Lab03a.S)(0x61562FF8)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3-I./RTE/Device/LPC4088FET208-I./RTE/_Target_1-IC:/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Arm/Packs/Keil/LPC4000_DFP/2.2.0/Device/Include-D__UVISION_VERSION=535 -D_RTE_ -DCORE_M4 -D_RTE_-o ./objects/lab03a.o)
+F (RTE\Device\LPC4088FET208\RTE_Device.h)(0x5D7135DC)()
+F (RTE\Device\LPC4088FET208\startup_LPC407x_8x_177x_8x.s)(0x5D7135DC)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3-I./RTE/Device/LPC4088FET208-I./RTE/_Target_1-IC:/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Arm/Packs/Keil/LPC4000_DFP/2.2.0/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 535" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"CORE_M4 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_lpc407x_8x_177x_8x.o)
+F (RTE\Device\LPC4088FET208\system_LPC407x_8x_177x_8x.c)(0x60E44992)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I./RTE/Device/LPC4088FET208-I./RTE/_Target_1-IC:/Arm/Packs/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IC:/Arm/Packs/Keil/LPC4000_DFP/2.2.0/Device/Include-D__UVISION_VERSION="535" -D_RTE_ -DCORE_M4 -D_RTE_-o ./objects/system_lpc407x_8x_177x_8x.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6035BEA0)
+I (C:\Arm\Packs\Keil\LPC4000_DFP\2.2.0\Device\Include\LPC407x_8x_177x_8x.h)(0x5E25C338)
+I (C:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D49FB2)
+I (C:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D49FB2)
+I (C:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D49FB2)
+I (C:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D49FB2)
+I (C:\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D49FB2)
+I (C:\Arm\Packs\Keil\LPC4000_DFP\2.2.0\Device\Include\system_LPC407x_8x_177x_8x.h)(0x5D7135DC)
+I (RTE\Device\LPC4088FET208\system_LPC407x_8x_177x_8x.h)(0x5D7135DC)
+F (RTE\Device\LPC4088FET208\system_LPC407x_8x_177x_8x.h)(0x5D7135DC)()
